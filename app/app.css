@@ -1,0 +1,66 @@
+/* app css stylesheet */
+
+.menu {
+  background: grey ;
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+.bienvenido  {
+  position: fixed;
+  left: 50px;
+  top: 20px;
+  font-family: chiller;
+  color: darkblue;
+  font-size: 50px;
+  margin-bottom: -20px;
+
+}
+.logo {
+  width: 600px;
+  height: 600px;
+  background: url(images/Fondo3.png) no-repeat;
+  position: absolute;
+  top: 150px;
+  right: 70px;
+
+}
+.fondo {
+  width: 80%;
+  position: relative;
+}
+.contenido {
+
+}
+.autor {
+  position: fixed;
+  bottom: 1px;
+  right: 20px;
+}
+.etiqueta{
+  position: fixed;
+  right: 50px;
+  top: 30px;
+  font-family: chiller;
+  color: darkblue;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
